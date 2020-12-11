@@ -20,7 +20,12 @@ if(token === '<your token here>'){
     return
 }
 
-replyMessage = replyMessage.toString()
+if(!replyMessage){
+    console.error('ERROR | No reply Message!')
+}
+else{
+    replyMessage = replyMessage.toString()
+}
 
 client.on('ready', () => {
     console.log('------------------------------')
