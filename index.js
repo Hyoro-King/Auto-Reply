@@ -37,4 +37,7 @@ client.on('message', message => {
     console.log(`${time} | Message | Message Recieved from ${message.author.tag} > Message Content: ${message.content}`)
 })
 
-client.login(token)
+client.login(token).catch(error => {
+    console.log('Invalid token! Please provide a valid token to login!')
+    setTimeout(() => {}, 10000)
+})
