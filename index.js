@@ -32,7 +32,7 @@ client.on('ready', () => {
     console.log(`Connected to ${client.user.tag}`)
     console.log('------------------------------')
     const time = moment().format("kk:mm:ss")
-    console.log(`${time} | Info | Connecting to Discord Rich Presence...`)
+    // console.log(`${time} | Info | Connecting to Discord Rich Presence...`)
 })
 
 client.on('message', message => {
