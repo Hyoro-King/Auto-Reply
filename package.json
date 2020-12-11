@@ -1,0 +1,21 @@
+{
+  "name": "auto-reply",
+  "version": "1.0.0",
+  "description": "A self bot that keeps your account active and automatically replies to your DMs with a preset message when you are AFK",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "pkg":{
+    "assets": "./**"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.6.4",
+    "discord.js-self": "^12.0.4",
+    "dotenv-flow": "^3.2.0",
+    "moment": "^2.29.1"
+  }
+}
